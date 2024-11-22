@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.)\.js\.br",
+      "source": "/(.*)\\.js\\.br",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/(.)\.js\.gz",
+      "source": "/(.*)\\.js\\.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/(.)\.wasm\.br",
+      "source": "/(.*)\\.wasm\\.br",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "source": "/(.)\.wasm\.gz",
+      "source": "/(.*)\\.wasm\\.gz",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "source": "/(.)\.data\.br",
+      "source": "/(.*)\\.data\\.br",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "source": "/(.)\.data\.gz",
+      "source": "/(.*)\\.data\\.gz",
       "headers": [
         {
           "key": "Content-Encoding",
